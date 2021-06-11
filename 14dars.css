@@ -1,0 +1,71 @@
+.swipe{
+    transition: all 1s;
+}
+.card-body:hover .swipe{
+    transform: rotate(360deg);
+}
+.swipe1{
+    transition: all 1s;
+}
+.card-body:active .swipe1{
+    transform: rotate(-360deg);
+}
+    .card-body{
+overflow:hidden ;
+    border: 2px solid transparent !important;
+}
+.card-body:hover{
+    border: 1px solid red!important;
+
+}
+.card-body:hover .place{
+    bottom: 0;
+}
+.rasm{
+    width: 50px;
+}
+.place{
+    margin-left: -16.5px;
+    width: 100%;
+    bottom: 0;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    transition: all 0.55s linear;
+    bottom: -200px;
+}
+.sozlar{
+    font-size: 30px;
+    width: 100%;
+    justify-content:center;
+    bottom: 63px;
+}
+span{
+    font-size: 15px;
+}
+.card{
+    transition: all 0.25s;
+
+}
+.card:active{
+    box-shadow: 5px 5px rgb(43, 41, 41);
+}
+.color{
+    width: 100%;
+    background-color:rgb(43, 41, 41);
+    color: white;
+}
+.word5{
+    color: turquoise;
+}
+.word4{
+    color: red;
+}
+.word3{
+    color: gray;
+}
+.word2{
+    color: blue;
+}
+.word1{
+    color: rgb(168, 179, 23);
+}

@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #222222;
+    font-family: sans-serif;
+}
+.container{
+display: flex;
+flex-wrap: wrap;
+margin: 0 auto;
+width: 1200px;
+}
+
+
+.navbar{
+   display: flex;
+   align-items: center;
+   width: 1200px;
+   color: white;
+}
+.elem{
+   margin-right: 25px;
+}
+.elem1{
+   margin-right: 120px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 60px;
+   height: 60px;
+   background-color: #EB6E51;
+   color: white;
+   font-size: 30px;
+   font-weight: 900;
+
+}
+.elem3{
+   color: #EB6E51;
+}
+.elem9{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   margin-left: auto;
+}
+.right-h{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #EB6E51;
+width: 30px;
+height: 30px;
+}
+.lupa{
+   color: white;
+padding-right: 15px;
+}
+
+
+.main2{
+    display: flex;
+}
+.chapter1{
+    display: flex;
+    flex: 2;
+    
+    justify-content: center;
+    margin-right: 50px;
+  position: relative;
+}
+.rosalina{
+    position: absolute;
+left: 80px;
+top: 130px;
+    color: white;
+    font-size: 80px;
+    z-index: 9;
+}
+img{
+    margin-left: 300px;
+    height: 700px;
+    z-index: 8;
+}
+
+
+.chapter2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* border: 1px solid white; */
+}
+
+.div1{
+    display: flex;
+    width: 400px;
+    height: 250px;
+}
+.shapes{
+    position: relative;
+    margin-bottom: 30px;
+}
+.triangle{
+width: 0;
+height: 0;
+border-top: 100px solid #2D3130;
+border-right: 100px solid transparent;
+transform: rotate(25deg);
+position: absolute;
+top: 100px;
+left: 20px;
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: #00EDAE;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 160px;
+left: 60px;
+}
+
+.div2{
+    padding-top: 50px;
+    height: 450px;
+}
+.p1{
+    color: #EB6E51;
+
+}
+.righthand{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+ 
+
+
+.main3{
+    display: flex;
+justify-content: center;
+align-items: center;
+    padding: 80px;
+
+}
+.bottom1{
+    margin-right: 150px;
+}
+.p1{
+    margin-bottom: 15px;
+    color:#EB6E51 ;
+}
+.h1-1{
+    color: white;
+    margin-bottom: 25px;
+}
+.p2{
+    color: white;
+}
+.h1-2{ 
+    font-size: 50px;
+    color: white;
+    margin-bottom: 15px;
+}
+h4{
+    color: white;
+}
+
+.link{
+    margin-top: 70px;
+}
+a{
+    margin-top: 25px;
+    color: #EB6E51 ;
+    font-size: 35px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* tablet */
+@media (max-width:900px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 700px;
+        }
+        
+        
+        .navbar{
+            display: flex;
+            align-items: center;
+            width: 600px;
+            color: white;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+        .elem{
+           margin-right: 15px;
+        }
+        .elem1{
+           margin-right: 60px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 40px;
+           background-color: #EB6E51;
+           color: white;
+           font-size: 30px;
+           font-weight: 900;
+        padding: 5px;
+        }
+        .elem3{
+           color: #EB6E51;
+        }
+        .elem9{
+           display: flex; 
+           justify-content: center;
+           align-items: center;
+           margin-left: auto;
+        }
+        .right-h{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           background-color: #EB6E51;
+        width: 30px;
+        height: 30px;
+        }
+        .lupa{
+           color: white;
+        padding-right: 15px;
+        }
+        
+        
+        .main2{
+            display: flex;
+            flex-direction: column;
+        }
+        .chapter1{
+            display: flex;
+            flex: 2;
+            
+            justify-content: center;
+            margin-right: 50px;
+          position: relative;
+        }
+        .rosalina{
+            position: absolute;
+        left: 100px;
+        top: 80px;
+            color: white;
+            font-size: 60px;
+            z-index: 9;
+        }
+        img{
+            margin-left: 300px;
+            height: 500px;
+            z-index: 8;
+        }
+        
+        
+        .chapter2{
+            display: flex;
+            flex: 1;
+            flex-direction: row;
+           }
+        
+        .div1{
+            display: flex;
+            width: 400px;
+            height: 250px;
+        }
+        .shapes{
+            position: relative;
+            margin-bottom: 30px;
+        }
+        .triangle{
+        width: 0;
+        height: 0;
+        border-top: 100px solid #2D3130;
+        border-right: 100px solid transparent;
+        transform: rotate(25deg);
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        }
+        
+        .circle{
+            border-radius: 50%;
+            background-color: #00EDAE;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 160px;
+        left: 60px;
+        }
+        
+        .div2{
+            padding-top: 30px;
+            height: 450px;
+        }
+        .p1{
+            color: #EB6E51;
+        
+        }
+        .righthand{
+            margin-top: 30px;
+            margin-bottom: 10px;
+            color: white;
+        }
+         
+        
+        
+        .main3{
+            display: flex;
+        justify-content: center;
+        align-items: center;
+            padding: 10px;
+        
+        }
+        .bottom1{
+            margin-right: 50px;
+        }
+        .p1{
+            margin-bottom: 15px;
+            color:#EB6E51 ;
+        }
+        .h1-1{
+            color: white;
+            margin-bottom: 25px;
+        }
+        .p2{
+            color: white;
+        }
+        .h1-2{ 
+            font-size: 40px;
+            color: white;
+            margin-bottom: 15px;
+        }
+        h4{
+            color: white;
+        }
+        
+        .link{
+            margin-top: 70px;
+        }
+        a{
+            margin-top: 25px;
+            color: #EB6E51 ;
+            font-size: 25px;
+            font-weight: 700;
+            text-decoration: none;
+        }
+}
+

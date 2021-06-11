@@ -1,0 +1,68 @@
+*{
+    color: white;
+}
+
+body{
+    padding: 50px 200px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    background-color: #394166;
+    height: 60px;
+    align-items: center;
+    padding: 0 30px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.title{
+    padding-left: 10px;
+}
+.last{
+    display: flex;
+    margin-left: auto;
+}
+
+.img{
+    width: 30x;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+
+}
+.lastText{
+    padding-right: 10px;
+}
+.con{
+    color: white;
+    background-color: #394166;
+    flex: 1;
+}
+.content{
+    display: flex;
+}
+.con1{
+    flex: 1;
+}
+.con2{
+    flex: 1;
+    margin: 0 10px;
+}
+.con3{
+    flex: 1;
+}
+.past{
+    margin-top: 20px;
+}
+.ChildCont{
+    background-color:;
+}

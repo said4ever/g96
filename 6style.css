@@ -1,0 +1,6 @@
+button:active{
+    transform: scale(0.9);
+    color: red;
+    background-color: black;
+    
+}
